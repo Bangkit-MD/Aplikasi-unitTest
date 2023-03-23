@@ -6,7 +6,7 @@ class MainViewModel(private val cuboidModel:CuboidModel) {
     fun getCircumference() = cuboidModel.getCircumReffrence()
     fun getSurfaceArea() = cuboidModel.getSruface()
     fun getVolume() = cuboidModel.getVolume()
-    fun save(w: Double, h: Double, l:Double){
-        cuboidModel.save(w,l,h)
+    fun save(l: Double, w: Double, h:Double){
+        cuboidModel.save(l,w,h)
     }
 }
